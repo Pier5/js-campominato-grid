@@ -57,6 +57,37 @@
     align-items: center;
 }
 
+.container-800 {
+    width: 800px;
+    margin: 40px auto;
+    text-align: center;
+}
+
 .text-footer {
     color: blueviolet;
+}
+
+.output,
+.output-two {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+
+.output-two {
+    width: 500px;
+    margin: 10px auto;
+}
+
+.box {
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shadow {
+    display: none;
 }

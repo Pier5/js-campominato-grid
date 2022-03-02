@@ -18,11 +18,11 @@
                 <div class="row">
                     <div class="col-left"><img class="img-boolean" src="img/Logo.png" alt="Logo Boolean"><span class="text">Campo Minato</span></div>
                     <div class="col-right">
-                        <label for="difficulty">Difficoltà:</label>
-                        <select name="difficulties" id="difficulty">
-                            <option value="easy">Easy</option>
-                            <option value="medium">Medium</option>
-                            <option value="hard">Hard</option>
+                        <label for="difficult">Difficoltà:</label>
+                        <select id="difficulty" name="difficulty">
+                            <option id="easy" value="easy">Easy</option>
+                            <option id="medium" value="medium">Medium</option>
+                            <option id="hard" value="hard">Hard</option>
                         </select>
                         <button id="btn-play">Play</button>
                     </div>
@@ -33,7 +33,10 @@
         <!-- inizio sezione main -->
         <main>
             <section class="one">
-                <div class="output"><span class="text">Seleziona la difficoltà che preferisci e premi il tasto Play per iniziare a giocare.</span></div>
+                <div class="container-800">
+                    <div class="output"><span class="text">Seleziona la difficoltà che preferisci e premi il tasto Play per iniziare a giocare.</span></div>
+                    <div class="output-two"></div>
+                </div>
             </section>
         </main>
 
