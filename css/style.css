@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-1200 {
+    width: 1200px;
+    margin: 10px auto;
+}
+
+.row {
+    display: flex;
+}
+
+.col-left {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.img-boolean {
+    width: 40px;
+}
+
+.text {
+    margin-left: 20px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.col-right {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#difficulty {
+    width: 150px;
+    margin: 0 5px;
+}
+
+#btn-play {
+    width: 50px;
+}
+
+.one {
+    height: 80vh;
+    background-color: #7fffd4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-footer {
+    color: blueviolet;
+}
